@@ -17,7 +17,7 @@
 Install the SDK via Composer:
 
 ```bash
-composer require helix/sdk
+composer require bannerstop/helix-sdk
 ```
 
 Ensure your environment meets the minimum requirements:
