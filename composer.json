@@ -1,0 +1,21 @@
+{
+    "name": "helix/sdk",
+    "description": "Helix SDK for PHP",
+    "type": "library",
+    "license": "MIT",
+    "version": "1.0.0",
+    "require": {
+        "php": ">=7.4",
+        "symfony/http-client": "^5.4 || ^6.0 || ^7.0 || ^8.0",
+        "symfony/serializer": "^5.4 || ^6.0 || ^7.0 || ^8.0",
+        "symfony/property-access": "^5.4 || ^6.0 || ^7.0 || ^8.0",
+        "symfony/property-info": "^5.4 || ^6.0 || ^7.0 || ^8.0",
+        "phpdocumentor/reflection-docblock": "^5.0",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Helix\\Sdk\\": "src/"
+        }
+    }
+}
